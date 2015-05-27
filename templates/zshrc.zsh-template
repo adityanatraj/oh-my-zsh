@@ -4,7 +4,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # plugins (they're in .oh-my-zsh/plugins)
-plugins=(gitfast python pip aws sublime)
+plugins=(gitfast python pip aws sublime virtualenv)
 
 # functions
 function join { local IFS="$1"; shift; echo "$*"; }
