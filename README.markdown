@@ -25,17 +25,17 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 
 #### via curl
 
-`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh`
+`curl -L https://raw.github.com/adityanatraj/oh-my-zsh/master/tools/install.sh | sh`
 
 #### via wget
 
-`wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh`
+`wget https://raw.github.com/adityanatraj/oh-my-zsh/master/tools/install.sh -O - | sh`
 
 ## Using Oh My Zsh
 
 ### Plugins
 
-Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins) to see what's currently available.
+Oh My Zsh comes with a shit load of plugins to take advantage of. You can take a look in the [plugins](https://github.com/adityanatraj/oh-my-zsh/tree/master/plugins) directory and/or the [wiki](https://github.com/adityanatraj/oh-my-zsh/wiki/Plugins) to see what's currently available.
 
 #### Enabling Plugins
 
@@ -51,7 +51,7 @@ Most plugins (should! we're working on this) include a __README__, which documen
 
 ### Themes
 
-We'll admit it. Early in the Oh My Zsh world... we may have gotten a far too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://wiki.github.com/robbyrussell/oh-my-zsh/themes) on the wiki. Check them out!
+We'll admit it. Early in the Oh My Zsh world... we may have gotten a far too theme happy. We have over one hundred themes now bundled. Most of them have [screenshots](https://wiki.github.com/adityanatraj/oh-my-zsh/themes) on the wiki. Check them out!
 
 #### Selecting a Theme
 
@@ -81,13 +81,13 @@ The default location is `~/.oh-my-zsh` (hidden in your home directory)
 
 If you'd like to change the install directory with the `ZSH` environment variable, either by running `export ZSH=/your/path` before installing, or by setting it before the end of the install pipeline like this:
 
-`curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh`
+`curl -L https://raw.github.com/adityanatraj/oh-my-zsh/master/tools/install.sh | ZSH=~/.dotfiles/zsh sh`
 
 #### Manual Installation
 
 ##### 1. Clone the repository:
 
-`git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh`
+`git clone git://github.com/adityanatraj/oh-my-zsh.git ~/.oh-my-zsh`
 
 ##### 2. *Optionally*, backup your existing @~/.zshrc@ file:
 
@@ -150,7 +150,7 @@ If you want to uninstall `oh-my-zsh`, just run `uninstall_oh_my_zsh` from the co
 
 I'm far from being a [Zsh](http://www.zsh.org/) expert and suspect there are many ways to improve – if you have ideas on how to make the configuration easier to maintain (and faster), don't hesitate to fork and send pull requests!
 
-We also need people to test out pull-requests. So take a look through [the open issues](https://github.com/robbyrussell/oh-my-zsh/issues) and help where you can.
+We also need people to test out pull-requests. So take a look through [the open issues](https://github.com/adityanatraj/oh-my-zsh/issues) and help where you can.
 
 ### Do NOT Send Us Themes
 
@@ -172,4 +172,4 @@ We have [stickers](http://shop.planetargon.com/products/ohmyzsh-stickers-set-of-
 
 ## LICENSE
 
-Oh My Zsh is released under the [MIT license](https://github.com/robbyrussell/oh-my-zsh/blob/master/MIT-LICENSE.txt).
+Oh My Zsh is released under the [MIT license](https://github.com/adityanatraj/oh-my-zsh/blob/master/MIT-LICENSE.txt).
